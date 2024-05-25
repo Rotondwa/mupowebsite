@@ -1,0 +1,251 @@
+:root {
+    --blue: #2D2F55;
+    --light-blue: #565876;
+    --dark-blue: #16172a;
+    --red: #ED3237;
+    --light-red: #f05a5e;
+    --dark-red: #76191b;
+    --black: #333333;
+    --white:#fff; 
+}
+
+*{
+    font-family: "Poppins", sans-serif !important;
+}
+
+.bg-blue {
+    background-color: var(--blue);
+}
+
+.text-blue {
+    color: var(--blue) !important;
+}
+
+.btn-blue {
+    background-color: var(--blue);
+    color: #fff;
+}
+
+.bg-light-blue {
+    background-color: var(--light-blue);
+}
+
+.text-light-blue {
+    color: var(--light-blue);
+}
+
+.btn-light-blue {
+    background-color: var(--light-blue);
+    color: #fff;
+}
+
+.bg-dark-blue {
+    background-color: var(--dark-blue);
+}
+
+.text-dark-blue {
+    color: var(--dark-blue);
+}
+
+.btn-dark-blue {
+    background-color: var(--dark-blue);
+    color: #fff;
+}
+
+.bg-red {
+    background-color: var(--red);
+    font-family: "Poppins", sans-serif !important;
+
+}
+
+.btn-red {
+    background-color: var(--red);
+    color: #fff;
+    font-family: "Poppins", sans-serif !important;
+
+}
+
+.btn-red:hover{
+    background-color: var(--blue) !important;
+    color: var(--white);
+    padding: 12px;
+    transition: 0.3s ease-in-out;
+}
+
+.text-red {
+    color: var(--red);
+}
+
+.bg-light-red {
+    background-color: var(--light-red);
+}
+
+.btn-light-red {
+    background-color: var(--light-red);
+    color: #fff;
+}
+
+.text-light-red {
+    color: var(--light-red);
+}
+
+.bg-dark-red {
+    background-color: var(--dark-red);
+}
+
+.btn-dark-red {
+    background-color: var(--dark-red);
+    color: #fff;
+}
+
+.text-dark-red {
+    color: var(--dark-red);
+}
+
+.text-white {
+    color: #fff !important;
+}
+.bg-black {
+    background-color: var(--black);
+    opacity: 0.80;
+}
+/*Generak*/
+.wallpaper {
+    background-image: url(../images/wallpaper.jpg) !important;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 100% !important;
+    padding: 5em !important;
+    margin: 0 !important;
+    width: 100% !important;
+}
+
+.hero-banner{
+    height: 100vh;
+    background-image: url(../images/wallpaper.jpg) !important;
+    background-size: cover;
+    background-position: center;
+}
+
+.breadcrumb-about{
+    height: 30vh;
+    background-image: url(../images/wallpaper.jpg) !important;
+    background-size: cover;
+    background-position: center;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    padding: 0;
+}
+.rotate-90 {
+    transform: rotate(-45deg);
+}
+/*Bootstrap*/
+navbar-nav .nav-link {
+    color: var(--blue) !important;
+    font-weight: 500;
+}
+    navbar-nav .nav-link:hover {
+        color: var(--red);
+        font-weight: 600;
+    }
+    nav .nav-link {
+        transition: border-bottom 0.3s ease-in-out;
+    }
+nav .nav-link.active {
+    color: var(--light-red) !important;
+    font-weight: 500;
+    border-bottom: 2px solid var(--light-red); /* Add this line */
+    transition: 0.2s ease-in-out;
+
+
+}
+nav .nav-link {
+    color: var(--light-blue) !important;
+    font-weight: 500;
+}
+
+nav .nav-link:hover {
+    color: var(--red) !important;
+    font-weight: 500 !important;
+    font-size: 16.5px;
+    transition: 0.2s ease-in-out;
+}
+
+.border-bottom-2{
+    border-bottom: 3px solid var(--light-red); /* Add this line */
+
+}
+
+.navbar-toggler {
+    color: var(--red) !important;
+    background-color: var(--red) !important;
+}
+
+h1, h2, h3, h4, h5, h6, .text-body-emphasis {
+    color: var(--blue) !important;
+}
+
+
+.fw-8{
+    font-weight: 700;
+}
+
+.fs-normal{
+ font-size: 12px;
+}
+.carousel-item img {
+    height: 100%;
+}
+
+footer .list-group-item {
+    border: 0;
+}
+
+.small-hr {
+    width: 8rem;
+    margin: 1rem auto;
+    border-top: 3px solid var(--red);
+    opacity: 1;
+}
+/*Social icons*/
+.icon-circle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px; /* Adjust size as needed */
+    height: 80px; /* Adjust size as needed */
+    border-radius: 50%;
+    background-color: red;
+}
+
+.services-icon {
+    font-size: 3em;
+    color: white;
+}
+
+.social-icon {
+    font-size: 2em;
+}
+
+i.social-icon {
+    color: var(--blue);
+}
+
+
+    i.social-icon:hover {
+        color: var(--red);
+    }
+    @media (min-width: 992px) {
+        .navbar-expand-lg .navbar-collapse {
+            display: flex !important;
+            flex-basis: min-content !important;
+            padding-left: 130px !important;
+        }
+    }
+
+
+
